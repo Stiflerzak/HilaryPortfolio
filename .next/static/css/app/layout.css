@@ -839,6 +839,15 @@ video {
 .relative {
   position: relative;
 }
+.-top-40 {
+  top: -10rem;
+}
+.-left-10 {
+  left: -2.5rem;
+}
+.-left-20 {
+  left: -5rem;
+}
 .z-\[1\] {
   z-index: 1;
 }
@@ -851,6 +860,9 @@ video {
 }
 .h-\[169\%\] {
   height: 169%;
+}
+.h-screen {
+  height: 100vh;
 }
 .w-\[138\%\] {
   width: 138%;
@@ -930,6 +942,16 @@ video {
   .sm\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+}
+@media (min-width: 768px) {
+
+  .md\:-left-32 {
+    left: -8rem;
+  }
+
+  .md\:-top-20 {
+    top: -5rem;
   }
 }
 @media (min-width: 1024px) {
