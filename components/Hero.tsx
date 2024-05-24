@@ -1,3 +1,4 @@
+import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
@@ -34,6 +35,11 @@ const Hero = () => {
             Hi, I&apos;m Hilary Kariuki, a frontend (Angularjs & Reactjs) and
             backend developer (Springboot & Ruby on Rails).
           </p>
+
+          <a href="#about">
+            <MagicButton title="Show my projects"/>
+          </a>
+
         </div>
       </div>
     </div>
