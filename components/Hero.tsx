@@ -1,3 +1,4 @@
+import { FaLocationArrow } from "react-icons/fa";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
@@ -29,7 +30,7 @@ const Hero = () => {
           </h2>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Hilary is passionate about Technology. Let's Transform those cool ideas to reality"
+            words="I&apos;m passionate about Technology. Let's Transform those cool ideas into reality"
           />
           <p className="text-center md: tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi, I&apos;m Hilary Kariuki, a frontend (Angularjs & Reactjs) and
@@ -37,7 +38,10 @@ const Hero = () => {
           </p>
 
           <a href="#about">
-            <MagicButton title="Show my projects"/>
+            <MagicButton title="Show my projects"
+            icon={<FaLocationArrow />}
+            position="right"
+            />
           </a>
 
         </div>

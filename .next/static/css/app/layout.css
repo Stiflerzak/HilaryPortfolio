@@ -918,11 +918,20 @@ video {
 .justify-center {
   justify-content: center;
 }
+.gap-2 {
+  gap: 0.5rem;
+}
+.gap-3 {
+  gap: 0.75rem;
+}
 .overflow-hidden {
   overflow: hidden;
 }
 .rounded-full {
   border-radius: 9999px;
+}
+.rounded-lg {
+  border-radius: var(--radius);
 }
 .bg-black-100 {
   --tw-bg-opacity: 1;
@@ -953,6 +962,10 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 .pb-20 {
   padding-bottom: 5rem;
@@ -1093,6 +1106,18 @@ video {
 
   .md\:-top-20 {
     top: -5rem;
+  }
+
+  .md\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:w-60 {
+    width: 15rem;
   }
 
   .md\:max-w-2xl {
