@@ -6,8 +6,8 @@ import { GlobeDemo } from "./GridGlobe";
 import Lottie from "react-lottie";
 import { useState } from "react";
 import animationData from '@/data/confetti.json';
-import { FaLocationArrow } from "react-icons/fa";
 import MagicButton from "./MagicButton";
+import { IoCopyOutline } from "react-icons/io5";
 
 
 
@@ -52,6 +52,13 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
     const [copied, setCopied] = useState(false);
+    const handleCopy = () => {
+        const text= "hilarymwendia97@gmail.com";
+        navigator.clipboard.writeText(text)
+        setCopied(true);
+    }
+
+    
   return (
     <div
       className={cn(
@@ -161,8 +168,11 @@ export const BentoGridItem = ({
                 </div>
                 <MagicButton
                 title= {copied ? 'Email copied' : 'Copy my email'}
-                icon = {<FaLocationArrow />}
-                position = "right" />
+                icon={<IoCopyOutline/>}
+                position="left"  
+                otherClasses="!bg-[#161a31]"  
+                handleClick={handleCopy}
+                />
             </div>
         ) }
       </div>
