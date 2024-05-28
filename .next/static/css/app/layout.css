@@ -1217,6 +1217,9 @@ video {
 .rounded-lg {
   border-radius: var(--radius);
 }
+.rounded {
+  border-radius: 0.25rem;
+}
 .border {
   border-width: 1px;
 }
@@ -1246,6 +1249,13 @@ video {
   background-color: #10;
 }
 .bg-\[\#10132E\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 19 46 / var(--tw-bg-opacity));
+}
+.bg-\[\#\] {
+  background-color: #;
+}
+.bg-\[\#10132e\] {
   --tw-bg-opacity: 1;
   background-color: rgb(16 19 46 / var(--tw-bg-opacity));
 }
@@ -1307,6 +1317,10 @@ video {
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .pb-20 {
   padding-bottom: 5rem;
