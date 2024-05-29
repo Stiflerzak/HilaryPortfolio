@@ -27,3 +27,8 @@ To run this project, clone this project from https://github.com/stiflerzak/.
 
 ```
 npm run dev
+
+ 
+ ## project link
+
+https://hilarykariuki.vercel.app/
