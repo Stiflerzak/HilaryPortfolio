@@ -14,6 +14,9 @@ Project is created with:
 * Aceternitry ui
 * Reactjs
 * SpringBoot
+* Typescript
+* Javascript
+* Tailwind css
 
 ```
 node 18.07
