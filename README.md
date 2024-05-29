@@ -4,7 +4,7 @@
 * [Start](#start)
 
 ## Intro
-The project showcases my programming skills through different projects.
+The project showcases and enhances my programming skills.
 It is still on going.
 
 
@@ -17,7 +17,7 @@ Project is created with:
 
 ```
 node 18.07
-npm run dev
+
 
 
 ```
