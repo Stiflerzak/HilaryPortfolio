@@ -23,7 +23,8 @@ node 18.07
 ```
 	
 ## start
-To run this project, clone this project from https://github.com/stiflerzak/.
+To run this project, clone this project from 
+https://github.com/Stiflerzak/hilaryportfolio.
 
 ```
 npm run dev
