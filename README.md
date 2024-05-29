@@ -5,7 +5,7 @@
 
 ## Intro
 The project showcases and enhances my programming skills.
-It is still on going.
+It is still ongoing.
 
 
 ## Installation
